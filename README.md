@@ -42,20 +42,26 @@ The Markdown cleanup happens in module 3's content mapping:
 
 ## 📋 The Google Sheet
 
-Sheet must have these headers in **row 1** (columns A–D):
+A ready-to-use copy of the sheet is included in this repo: **[`make dot com.xlsx`](make%20dot%20com.xlsx)**.
 
-| A | B | C | D |
-|---|---|---|---|
-| **Topic** | **Tone** | **Approval** | **Status** |
-| The future of AI in marketing | Professional | Yes | |
-| Lessons from my first startup failure | Inspirational | Yes | |
-| Why remote work boosts productivity | Conversational | Yes | |
+![Google Sheet layout](sheets.png)
+
+Layout (headers in **row 1**):
+
+| A | B | C | D | E |
+|---|---|---|---|---|
+| *(#)* | **Topic** | **Tone** | **Approval** | **Posted** |
+| 1 | 5 habits of effective leaders | Professional | Yes | |
+| 2 | Lessons from my first startup | Inspirational | Yes | |
+| 3 | Why remote work boosts productivity | Conversational | Yes | |
+| 4 | The future of AI in marketing | Motivational | Yes | |
 
 **Rules:**
-- Leave **Status (D)** *empty* for any row you want posted. Blank = "will post."
+- Leave the **Posted** column *empty* for any row you want published. Blank = "will post."
 - The scenario fills in `Posted` (or `Error`) automatically — don't pre-fill it.
-- **Approval (C)** is currently informational only (auto-approve mode). It can later gate posting with a `Approval = Yes` filter.
+- **Approval** is currently informational only (auto-approve mode). It can later gate posting with an `Approval = Yes` filter.
 - **Tone** is free text and is injected straight into the prompt.
+- Column **A** is just an optional serial number for readability — the scenario tracks rows by their actual sheet row number.
 
 ---
 
