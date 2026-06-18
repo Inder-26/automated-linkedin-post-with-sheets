@@ -2,6 +2,12 @@
 
 A [Make.com](https://www.make.com) scenario that turns a Google Sheet into a fully automated LinkedIn content pipeline. Drop a topic and tone into a row, and the scenario writes a post with AI, cleans up the formatting, publishes it to LinkedIn, and marks the row as **Posted** — all on a schedule, with no manual steps.
 
+# DEMO VIDEO
+
+https://github.com/user-attachments/assets/d880f21c-aba2-463a-bb81-1c99cdbe9c77
+
+
+
 > **Public scenario link:** [Open in Make](https://eu1.make.com/public/shared-scenario/1Y4MAPOn0mD/integration-google-sheets-option-b)
 
 ![Scenario overview](scenario-overview.png)
